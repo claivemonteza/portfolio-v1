@@ -6,4 +6,6 @@
 <h1 align="center">
   claivemonteza.com - v1
 </h1>
-![demo](https://github.com/claivemonteza/portfolio/blob/main/assets/img/logo-c.png)
+<div align="center">
+  <img alt="image" src="https://github.com/claivemonteza/portfolio/blob/main/assets/img/logo-c.png">
+</div>
