@@ -1,0 +1,40 @@
+#skills {
+  text-align: center;
+}
+
+#skills img {
+    transition: transform 0.5s;
+    width: 3.8rem;
+    border: none;
+    margin: 0;
+}
+
+.languages i, .frameworks i {
+  transition: transform 0.5s;
+  font-size: 4rem;
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+.languages i:hover, .frameworks i:hover, #skills img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
+.languages i p, .frameworks i p{
+  color: black;
+  position: relative;
+  bottom: 5rem;
+  font-size: .75rem;
+  font-style: normal;
+  height:1rem;
+}
+
+.skills-subheader {
+  margin: 1.5rem;
+}
+
+#skills .section-header {
+  margin-bottom: 0.75rem;
+}
