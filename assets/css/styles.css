@@ -264,9 +264,9 @@ img{
   top:var(--mb-4);
   background-color: var(--first-color);
 }
+
 .nav__logo{
   color:var(--first-color);
-  
 }
 
 .nav__logo img{
