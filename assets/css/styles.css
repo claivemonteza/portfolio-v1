@@ -21,6 +21,7 @@
   --tenh-color:#2efa06;
   --eleventh-color:#1c09c7;
   --twelfth-color:black;
+  --thirteen-color:rgba(0,0,0,0.8);
 }
 
 /*===== Font and typography =====*/
@@ -198,7 +199,7 @@ img{
     width: var(--per-3);
     height: var(--per-1);
     padding: var(--mb-4);
-    background-color: var(--second-color);
+    background-color: var(--thirteen-color);
     transition: .5s;
   }
 }
@@ -212,7 +213,7 @@ img{
     width: var(--per-3);
     height: var(--per-1);
     padding: var(--mb-4);
-    background-color: var(--second-color);
+    background-color: var(--thirteen-color);
     transition: .5s;
   }
 }
@@ -229,7 +230,7 @@ img{
       width: var(--per-3);
       height: var(--per-1);
       padding: var(--mb-4);
-      background-color: var(--second-color);
+      background-color: var(--thirteen-color);
       transition: .5s;
   }
 }
