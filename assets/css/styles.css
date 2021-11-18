@@ -97,6 +97,9 @@
   --per-8:40%;
   --per-9:50%;
   --per-10:57%;
+  --per-11:33%;
+  --per-12:26%;
+  --per-13:20%;
 }
 
 /*===== z index =====*/
@@ -474,10 +477,11 @@ img{
 .footer__social a{
   margin: 0 var(--mb-11);
     max-height: var(--pixel-6);
+    text-align: initial;
 }
 
 .footer__social a i{
-  font-size: var(--pixel-6);
+  font-size: var(--pixel-15);
 }
 
 .footer__social-whatsapp{
@@ -692,17 +696,17 @@ img{
   }
 
   .footer__info {
-    width: var(--per-7);
+    width: var(--per-8);
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
 
   .footer__social {
-      display: flex;
-      margin-right: 1vw;
-      width: var(--per-8);
-      align-items: center;
-      justify-content: flex-end;
-  }
+    display:grid;
+    margin-right: 1vw;
+    width: var(--per-13);
+    align-items: center;
+    justify-content: flex-end;
+}
 }
