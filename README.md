@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 <div align="center">
   <img alt="Logo" src="https://github.com/claivemonteza/portfolio/blob/main/assets/img/logo-c.png" width="100" />
@@ -11,4 +11,4 @@
 </div>
 
 # Live Site
-https://claivemonteza.github.io/portfolio/
+https://claivemonteza.github.io/portfolio-v1/
