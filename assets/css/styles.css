@@ -450,12 +450,46 @@ img {
 }
 
 .overlay i{
-  margin-top: 100px;
+  margin-top: 150px;
   font-size: 33px;
   color: #fff;
 }
 
 .work__img:hover .overlay{
+  opacity: 1;
+}
+
+.service-desc{
+  color: #fff;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+
+hr{
+  background: #fff;
+  height: 2px;
+  border: 0;
+  margin: 15px auto;
+  width: 60%;
+}
+
+.service-desc h6{
+  text-align: center;
+  margin-bottom: -0.5rem;
+}
+
+.service-desc p{
+  font-size: 11px;
+  text-align: center;
+}
+
+.work__img:hover .service-desc{
+  bottom: 40% !important;
   opacity: 1;
 }
 
